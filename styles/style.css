@@ -159,7 +159,7 @@ body{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 2000px 70px #1d4ed8;
+    box-shadow: 0 0 2000px 90px #1d4ed8;
     z-index: -100;
 }
 
