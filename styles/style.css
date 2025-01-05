@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+}
+
+.nav{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0rem 2rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+
+
+.nav .navlink{
+    display: flex;
+    gap: 3rem;
+    font-size: 2.5rem;
+}
+
+.navlink a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.navlink a::after{
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+
+
+.navlink a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+.btn11{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.btn11:hover{
+    background-color: #1e40af;
+
+}
+
+.btn11:hover::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.btn12{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.btn12:hover{
+    background-color: #1e40af;
+
+}
+
+.btn12:hover::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.btn2{
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.btn2:hover{
+    background-color: #1e40af;
+
+}
+
+.btn2:hover::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 2000px 90px #1d4ed8;
+    z-index: -100;
+}
+
+
+
+
+header .content h1{
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+
+
+header .content p{
+    margin-bottom: 2rem;
+    color: white;
+
+}
+
+
+
+section .header{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.container .viewall{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+
+.viewall a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.viewall a::after{
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+.viewall a:hover::after{
+    width: 100%;
+}
+
+
+
+.projects{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+
+.card{
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+}
+
+.card:hover{
+    background-color: #323232;
+    border-color: white;
+}
+
+.card h4{
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.card p{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card a{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.card a:hover{
+    color: blue;
+
+}
+
+footer{
+    position: relative;
+    display: grid;
+    align-items: center;
+    
+    gap: 0.5rem;
+}
+
+
+footer .column p{
+    color: white;
+    margin-bottom: 0.25rem;
+
+}
+
+footer .column .contact{
+    color: white;
+    border-radius: 50%;
+}
